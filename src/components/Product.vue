@@ -5,7 +5,7 @@
           <img src="https://res.cloudinary.com/sam-kay/image/upload/v1630356346/e%20commerce/obj_3_1_lpnefj.png" alt="">
       </div>
         <div class="image" >
-          <img src="https://res.cloudinary.com/sam-kay/image/upload/v1630328202/e%20commerce/obj_3_1_lpnefj.png" alt="">
+          <img src="https://res.cloudinary.com/sam-kay/image/upload/v1630328203/e%20commerce/obj_1_1_zr9kkp.png" alt="">
       </div>
         <div class="image" >
           <img src="https://res.cloudinary.com/sam-kay/image/upload/v1630328202/e%20commerce/obj_3_1_lpnefj.png" alt="">
@@ -15,7 +15,8 @@
       </div>
      
 </div>      
-  <div class="btn-area"><button>GET STARTED</button></div>
+  <div class="btn-area"><button>SHOP ALL TRENDING</button></div>
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, voluptas. Expedita fugiat cumque accusamus explicabo suscipit labore ducimus eum, delectus asperiores fuga nulla, ipsam illum nesciunt exercitationem dolore? Eius, mollitia?
 
      </div>
 
@@ -35,22 +36,23 @@ export default {
   z-index: 2;
   overflow-x:auto;
   margin: auto 0px;
-  
+
+
 }
 .image{
 display: inline-block;
 background: #ffffff;
     text-align: center;
     padding:50px 0px;
-    margin:30px 20px 30px 20px;
+    margin:30px 20px 40px 20px;
 }
 .image img{
 
 }
 .btn-area {
   text-align: center;
-  margin-top: 90px;
-}
+  margin-top: 30px;
+
 button {
   font-size: 20px;
   padding: 22px 90px;
@@ -60,6 +62,7 @@ button {
 
 button:hover {
   background: #fd621b;
+}
 }
 
 @media (min-width: 1200px) {
@@ -72,12 +75,22 @@ button:hover {
 
 @media (max-width: 768px) {
  .image {
-   min-width: 155px !important;
-  
+ flex-basis:400px;
+
          img{
-     max-width: 50px;
+    
         }
  }
+ .btn-area {
+ button {
+  font-size: 18px;
+  
+  padding: 13px 42px;
+  color:white;
+
+}
+
+}
 }
 
 </style>
