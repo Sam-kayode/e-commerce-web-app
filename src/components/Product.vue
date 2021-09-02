@@ -1,5 +1,5 @@
 <template>
-<div class=" ">  
+<div class="collection-containe">  
    <div class="collection">
        <div class="image" >
           <img src="https://res.cloudinary.com/sam-kay/image/upload/v1630356346/e%20commerce/obj_3_1_lpnefj.png" alt="">
@@ -8,10 +8,10 @@
           <img src="https://res.cloudinary.com/sam-kay/image/upload/v1630328203/e%20commerce/obj_1_1_zr9kkp.png" alt="">
       </div>
         <div class="image" >
-          <img src="https://res.cloudinary.com/sam-kay/image/upload/v1630328202/e%20commerce/obj_3_1_lpnefj.png" alt="">
+          <img src="https://res.cloudinary.com/sam-kay/image/upload/v1630328202/e%20commerce/obj_4_1_rjnxnb.png" alt="">
       </div>
         <div class="image" >
-          <img src="https://res.cloudinary.com/sam-kay/image/upload/v1630328202/e%20commerce/obj_3_1_lpnefj.png" alt="">
+          <img src="https://res.cloudinary.com/sam-kay/image/upload/v1630328202/e%20commerce/obj_2_1_zf90by.png" alt="">
       </div>
      
 </div>      
@@ -29,14 +29,18 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.collection-container{
+  margin: auto;
+
+}
 .collection{
-  display: flex;
+  display: grid;
   position: relative;
   scroll-behavior: smooth;
   z-index: 2;
   overflow-x:auto;
-  margin: auto 0px;
-
+    margin:auto;
+ grid-template-columns:repeat(4, minmax(250px, 300px));
 
 }
 .image{
@@ -44,6 +48,7 @@ display: inline-block;
 background: #ffffff;
     text-align: center;
     padding:50px 0px;
+    height:fit-content;
     margin:30px 20px 40px 20px;
 }
 .image img{
@@ -66,16 +71,20 @@ button:hover {
 }
 
 @media (min-width: 1200px) {
- .image img{
-     justify-content:center;
-         min-width:280px;
+ .image
+ { 
+   justify-content: center;
 
+   img{
+    
+
+ }
  }
 }
 
 @media (max-width: 768px) {
  .image {
- flex-basis:400px;
+
 
          img{
     
