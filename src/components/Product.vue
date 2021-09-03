@@ -40,7 +40,7 @@ export default {
   z-index: 2;
   overflow-x:auto;
     margin:auto;
- grid-template-columns:repeat(4, minmax(250px, 300px));
+ grid-template-columns:repeat(4, minmax(280px, 1fr));
 
 }
 .image{
@@ -63,6 +63,7 @@ button {
   padding: 22px 90px;
   background: #ff5101;
   border: none;
+  color:white;
 }
 
 button:hover {
@@ -83,6 +84,10 @@ button:hover {
 }
 
 @media (max-width: 768px) {
+  .collection{
+     grid-template-columns:repeat(4, minmax(250px, 300px));
+
+  }
  .image {
 
 

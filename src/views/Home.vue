@@ -14,9 +14,9 @@
       <div class="btn-area"><button>GET STARTED</button></div>
     </div>
     <b-container fluid class="p-lg-5">
-  <b-row>
+  <b-row >
     <b-col class="catcher p-sm-5 p-md-5" align-self="center" lg="3" order-lg="1" order="2"> WHERE SCIENCE <br> CO-EXISTS <br>WITH NATURE</b-col>
-    <b-col class="catcher-img py-sm-3 py-sm-0" align-self="center" lg="6" order-lg="2" order="1"><img src="https://res.cloudinary.com/sam-kay/image/upload/q_auto:low/e%20commerce/ecommerce_1_hr82dj.png" alt=""></b-col>
+    <b-col class="catcher-img py-sm-3 py-sm-0" align-self="center" lg="6" order-lg="2" order="1"><img src="https://res.cloudinary.com/sam-kay/image/upload/q_auto:low/e%20commerce/ecommerce_1_hr82dj.png" class="py-5 py-lg-0" alt=""></b-col>
     <b-col class="catcher-end px-sm-5 px-md-5" align-self="end" lg="3" order-lg="3" order="3"><p>Consectetur reprehenderit excepteur excepteur tempor voluptate deserunt exercitation mollit excepteur veniam voluptate dolor officia. Magna cupidatat ex esse velit magna sit incididunt cillum. Mollit eu in sint reprehenderit laborum ea eiusmod et nostrud eiusmod voluptate. Non magna occaecat culpa culpa aliquip. In sit voluptate eu non aute pariatur fugiat consectetur. Ut minim Lorem ipsum eiusmod id nostrud id ullamco in ad velit laboris. Pariatur tempor nostrud deserunt deserunt ullamco sint dolor laborum </p></b-col>
   </b-row>
   <div class="explore">
@@ -69,11 +69,13 @@ export default {
   text-align: center;
   margin-top: 90px;
 }
+
 button {
   font-size: 20px;
   padding: 22px 103px;
   background: #ff5101;
   border: none;
+  color:white;
 }
 
 button:hover {
